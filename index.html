@@ -6,5 +6,15 @@
 <meta name="viewport" content="width=device-width">
 <title>WP Maintenance page info</title>
 </head>
-
-{version}
+<body>
+  <script>
+  var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+  </script>
+<script>
+  GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+  </script>
