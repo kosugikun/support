@@ -1,5 +1,3 @@
 # サポートページ
-#{version}
 
-
-
+{version}
